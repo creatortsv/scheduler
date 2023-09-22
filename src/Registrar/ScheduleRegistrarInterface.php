@@ -8,6 +8,9 @@ use Countable;
 use Cron\CronExpression;
 use Iterator;
 
+/**
+ * @template-implements Iterator<CronExpression, callable>
+ */
 interface ScheduleRegistrarInterface extends Iterator, Countable
 {
     public function register(callable $callable): CronExpression;

@@ -11,6 +11,9 @@ use DateTimeInterface;
 use FilterIterator;
 use TypeError;
 
+/**
+ * @internal
+ */
 class ScheduleIterator extends FilterIterator implements Countable
 {
     public function __construct(
