@@ -40,7 +40,7 @@
   "scripts": {
     "code-style": "@php vendor/bin/phpcs --standard=PSR12 src tests",
     "code-fix": "@php vendor/bin/phpcbf --standard=PSR12 src tests",
-    "test": "@php vendor/bin/phpunit -v --testdox --colors=always --no-configuration tests",
+    "test": "@php vendor/bin/phpunit --version --testdox --colors=always --no-configuration tests",
     "all": {
       "code-style":  "@code-style",
       "test": "@test"
