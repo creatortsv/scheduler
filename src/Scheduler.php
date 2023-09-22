@@ -56,7 +56,7 @@ class Scheduler
     {
         $registrar = clone $this->registrar;
 
-        array_walk($this->providers, fn (ScheduleProviderInterface $p) => $p->boot($registrar));
+        array_walk($this->providers, static fn (ScheduleProviderInterface $p) => $p->boot($registrar));
 
         $registrar->rewind();
 
