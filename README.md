@@ -1,4 +1,7 @@
 # Scheduler
+
+[![CI](https://github.com/creatortsv/scheduler/actions/workflows/php.yml/badge.svg?branch=main)](https://github.com/creatortsv/scheduler/actions/workflows/php.yml)
+
 Stand-alone package which provides functionality to schedule script execution.
 
 ## Installation
